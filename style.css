@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+/*header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(122, 122, 156);
+  color: white;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 8px;
+  background-color: white;
+  color: rgb(122, 122, 156);
+  margin-right: 16px;
+  border-radius: 3px;
+}
+
+nav {
+  /* width: 90%;
+  margin: 0 auto; */
+}
+ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
