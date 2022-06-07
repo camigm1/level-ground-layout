@@ -10,7 +10,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(122, 122, 156);
+  background-color: rgb(85, 124, 175);
   color: white;
   align-items: center;
 }
@@ -20,7 +20,7 @@ header a {
   text-decoration: none;
   padding: 5px 8px;
   background-color: white;
-  color: rgb(122, 122, 156);
+  color: rgb(85, 124, 175);
   margin-right: 16px;
   border-radius: 3px;
 }
@@ -34,8 +34,9 @@ ul {
 
 /*main*/
 main {
-  background-color: rgb(122, 122, 156);
+  background-color: rgb(85, 124, 175);
   color: white;
+  padding: 50px;
 }
 
 main h1 {
@@ -51,6 +52,16 @@ main h1 {
   margin: 0 auto;
 }
 
+.main-container p {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.main-container span {
+  display: inline-block;
+  padding: 30px 0 50px;
+}
+
 /*why section*/
 
 h2 {
@@ -60,6 +71,11 @@ h2 {
 .why-container {
   width: 70%;
   margin: 50px auto;
+}
+
+.why-container p {
+  width: 75%;
+  margin: 0 auto;
 }
 
 /*third-section*/
