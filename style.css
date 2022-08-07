@@ -6,11 +6,22 @@ body {
   font-family: sans-serif;
   text-align: center;
 }
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 35px;
+  border: 1px solid gray;
+  color: black;
+  border-radius: 1px;
+  margin-top: 10px;
+  font-weight: bold;
+}
 /*header*/
 header {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(85, 124, 175);
+  background-color: rgb(88, 110, 139);
   color: white;
   align-items: center;
 }
@@ -20,7 +31,7 @@ header a {
   text-decoration: none;
   padding: 5px 8px;
   background-color: white;
-  color: rgb(85, 124, 175);
+  color: rgb(88, 110, 139);
   margin-right: 16px;
   border-radius: 3px;
 }
@@ -30,11 +41,12 @@ ul {
   display: flex;
   gap: 10px;
   list-style: none;
+  font-size: 16px;
 }
 
 /*main*/
 main {
-  background-color: rgb(85, 124, 175);
+  background-color: rgb(88, 110, 139);
   color: white;
   padding: 50px;
 }
@@ -58,8 +70,19 @@ main h1 {
 }
 
 .main-container span {
-  display: inline-block;
-  padding: 30px 0 50px;
+  display: block;
+}
+
+.play {
+  /* padding-top: 30px; */
+  width: 24px;
+}
+
+.watch-container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*why section*/
@@ -74,23 +97,54 @@ h2 {
 }
 
 .why-container p {
-  width: 75%;
+  width: 60%;
   margin: 0 auto;
 }
 
-/*third-section*/
+.why-section {
+  padding: 30px;
+}
 
+/*third-section*/
+.gym {
+  width: 70%;
+}
+
+.welcome {
+  width: 82%;
+}
 .third-section {
-  background-color: rgb(219, 217, 217);
+  padding: 50px;
+  background-color: rgb(216, 216, 216);
+}
+
+.third-container {
   display: flex;
-  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
   justify-content: center;
+  padding: 50px;
 }
 
 .third-section h3 {
-  text-transform: uppercase;
+}
+
+.container-one p {
+  width: 90%;
 }
 
 /*volunteer- fourth section*/
+.volunteer-section {
+  padding: 80px;
+}
+
+.volunteer-container {
+  width: 60%;
+  margin: 0 auto;
+}
 
 /*footer*/
+footer {
+  color: white;
+  background-color: rgb(33, 33, 46);
+}
